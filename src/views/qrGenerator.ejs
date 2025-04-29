@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Código QR</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Generador de Código QR</h1>
+
+    <form action="/generate" method="post">
+        <textarea name="qrText" placeholder="Ingrese el texto para generar el QR"></textarea>
+        <button type="submit">Generar QR</button>
+    </form>
+
+    <div id="qrcode-container">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALMSURBVO3BQY7YSAwEwSxC//9y7hx5akCQNLa5jIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qEk/CaVO5JwonKShN+k8kSxRinWKMUa5eJlKm9KwkkSOpVO5U0qb0rCm4o1SrFGKdYoFx9Lwh0qd6h0SThR6ZLQqdyRhDtUvlSsUYo1SrFGufifSUKnMkmxRinWKMUa5eIfl4QnktCp/MuKNUqxRinWKBcfU/mSSpeETqVLQqfyhMrfpFijFGuUYo1y8bIk/KYkdCpdEjqVLgmdykkS/mbFGqVYoxRrlPiDNUaxRinWKMUa5eKhJHQqXRI6lS4JnUqXhE7lJAknKl0SOpU7ktCpnCShU3lTsUYp1ijFGuXiIZUnVLokdCpdEjqVO5LQqXRJ6FS6JHQqXRI6lU6lS0Kn8kSxRinWKMUa5eKhJNyRhBOVLgl3qHRJeCIJb0rCl4o1SrFGKdYo8QcPJOEOlTcloVM5ScIdKl0STlT+pGKNUqxRijXKxcdUuiR8KQl3qHRJ6JJwovJEEjqVJ4o1SrFGKdYoFw+p3KHypiR0Kl0SOpUTlS4Jb0rCl4o1SrFGKdYo8QcPJOE3qbwpCZ3KHUnoVLok3KHyRLFGKdYoxRrl4mUqb0rCHUk4UelUTpJwonKi0iXhS8UapVijFGuUi48l4Q6VO5LQqXRJOElCp3JHEjqVP6lYoxRrlGKNcvGPU+mS0Kl0SehUuiR0Kl0STpLQqZyovKlYoxRrlGKNcvGPS8KXkvBEEjqVLgmdyhPFGqVYoxRrlIuPqXxJpUvCHUk4UTlJQqdykoRO5U3FGqVYoxRrlIuXJeE3JaFTuUOlS0KXhE7lJAmdykkSOpUnijVKsUYp1ijxB2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/AcyoBcDtv0RdAAAAABJRU5ErkJggg==
+        " alt="">
+    </div>
+
+</body>
+</html>
